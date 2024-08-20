@@ -1,5 +1,5 @@
-// import Title from "./Title";
-import styles from "./Header.module.css";
+import { Sun } from "../Icons/Sun";
+import { Kebab } from "../Icons/Kebab";
 
 const title = ["About", "Work", "Testimonials", "Contact"];
 
@@ -10,26 +10,18 @@ const Title = (props) => {
 
 function Header() {
   return (
-    <div className={styles.flex}>
-      <h1
-        className="text-3xl font-normal 
-"
-      >
-        Tom
-      </h1>
-      <div className={styles.items}>
+    <div className="flex justify-between h-16 mx-20 py-4 sm:m-auto sm:w-96">
+      <h1 className="text-3xl  font-bold leading-9">Tom</h1>
+      <Kebab />
+      <div className="gap-5 flex sm:hidden">
         {title.map((item) => {
           return <Title text={item} />;
         })}
-        <div className={styles.img}>
-          <img
-            style={{
-              width: "24px",
-              height: "24px",
-            }}
-            src="head-icon.png"
-          />
-          <p className={styles.download}>Download CV</p>
+        <div className="flex items-center ">
+          <Sun />
+          <p className="bg-black text-[#F9FAFB] rounded-xl   text-xs flex items-center w-24 h-7 justify-center">
+            Download CV
+          </p>
         </div>
       </div>
     </div>
