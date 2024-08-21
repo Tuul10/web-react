@@ -1,12 +1,17 @@
 export const BoardTwo = () => {
   return (
-    <div className=" m-auto sm:w-96 bg-[#F9FAFB] ">
+    <div className="py-24 px-20 m-auto sm:w-96 bg-[#F9FAFB] ">
       <p className="  flex bg-[#E5E7EB]  w-28 m-auto justify-center py-1 px-5 rounded-xl h-7 items-center">
         About me
       </p>
-      <div className="flex sm:flex-col sm:w-96  justify-between sm:py-16 sm:px-4 py-24 px-20">
-        <img className=" sm:6 w-80 h-96" src="photo2.png" />
-        <div className="gap-4 text-[#4B5563] sm:w-11/12  ms:mt-4 w-1/2">
+      <div className="flex sm:flex-col  sm:justify-center sm:items-center justify-between sm:py-16 sm:px-4 gitmt-12">
+        <div>
+          <img
+            className=" sm:justify-center sm:items-center w-80 h-96"
+            src="photo2.png"
+          />
+        </div>
+        <div className="gap-4 text-[#4B5563] sm:w-fit  ms:mt-4 w-1/2">
           <h1 className="sm:mt12 font-semibold text-[#111827] text-2xl sm:tex-xl">
             Curious about me? Here you have it:
           </h1>

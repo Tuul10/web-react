@@ -1,28 +1,21 @@
-import { BoardOne } from "@/components/Board-one";
+import { BoardOne } from "@/components/BoardOne";
 import Header from "../components/Header";
 import styles from "../styles/Home.module.css";
-import { BoardTwo } from "@/components/Board-two";
-import { BoardTree } from "@/components/Board-tree";
-import { Javascript } from "@/Icons/Javascript";
+import { BoardTwo } from "@/components/BoardTwo";
+import { BoardTree } from "@/components/BoardTree";
+import { TechIcons } from "@/Icons/TechIcons";
+import { BoardFour } from "@/components/BoardFour";
 
 function Home() {
   return (
-    <div className={styles.container}>
+    <div className="m-auto max-w-7xl lg:flex-col lg:flex">
       <Header />
       <BoardOne />
       <BoardTwo />
       <BoardTree />
-      {skills.map((skill) => {
-        return <div>{skill.icon}</div>;
-      })}
+      <TechIcons />
+      <BoardFour />
     </div>
   );
 }
 export default Home;
-
-const skills = [
-  {
-    icon: <Javascript />,
-    name: "Javascript",
-  },
-];
