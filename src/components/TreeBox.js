@@ -27,7 +27,7 @@ export const TreeBox = () => {
               <h1 className="text-xl ">{title}</h1>
               {box.texts.map((text) => {
                 return (
-                  <url>
+                  <url key={id}>
                     <li>{text}</li>
                   </url>
                 );
