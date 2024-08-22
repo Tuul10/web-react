@@ -14,8 +14,8 @@ function Header() {
       <h1 className="text-3xl  font-bold leading-9">Tom</h1>
       <Kebab />
       <div className="gap-5 flex sm:hidden">
-        {title.map((item) => {
-          return <Title text={item} />;
+        {title.map((item, index) => {
+          return <Title key={index} text={item} />;
         })}
         <div className="flex items-center ">
           <Sun />

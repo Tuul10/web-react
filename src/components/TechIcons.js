@@ -86,11 +86,15 @@ const skills = [
 export const TechIcons = () => {
   return (
     <div className="grid grid-cols-8 gap-12 px-8 justify-center items-center sm:grid-cols-3 sm:gap-6 sm:w-96 sm:m-auto">
-      {skills.map((skill) => {
+      {skills.map((skill, index) => {
         const { icon, name } = skill;
         return (
-          <div className="text-[#4B5563] font-normal text-xl flex justify-center items-center flex-col gap-2">
-            {icon} {name}{" "}
+          <div
+            key={index}
+            className="text-[#4B5563] font-normal text-xl flex justify-center items-center flex-col gap-2"
+          >
+            {icon} {name}
+            {id}
           </div>
         );
       })}
