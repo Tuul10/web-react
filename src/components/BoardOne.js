@@ -6,8 +6,8 @@ import { Location } from "@/Icons/location";
 
 export const BoardOne = () => {
   return (
-    <div className="flex justify-between my-24 mx-20 sm:flex-col sm:justify-center sm:items-center sm:flex-col-reverse sm:m-auto sm:w-96 sm:py-16 sm:px-4 sm:gap-12 sm:h-226">
-      <div className="w-1/2 sm:w-96">
+    <div className="flex justify-between my-24 mx-20  sm:justify-center sm:items-center sm:flex-col-reverse sm:m-auto sm:w-96 sm:py-16 sm:px-4 sm:gap-12 sm:h-226">
+      <div className="w-1/2 sm:w-96 px-9">
         <h1 className="text-6xl font-bold sm:text-4xl">Hi, I’m Tom 👋</h1>
         <p className="text-slate-600 mt-2 font-normal leading-6 h-24 sm:mb-12 sm:h-48">
           I specialize in full stack development, particularly with React.js and
@@ -34,7 +34,7 @@ export const BoardOne = () => {
       </div>
       <div className="flex justify-center items-center">
         <img
-          className="h-96 justify-center items-center flex"
+          className="h-96 justify-center items-center flex border-b-8 border-r-8  border-gray-default border-[#E5E7EB] border-t-none"
           src="photo1.png"
         />
       </div>

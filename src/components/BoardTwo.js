@@ -4,7 +4,7 @@ export const BoardTwo = () => {
       <p className="  flex bg-[#E5E7EB]  w-28 m-auto justify-center py-1 px-5 rounded-xl h-7 items-center">
         About me
       </p>
-      <div className="flex sm:flex-col  sm:justify-center sm:items-center justify-between sm:py-16 sm:px-4 gitmt-12">
+      <div className="flex sm:flex-col  sm:justify-center sm:items-center justify-between sm:py-16 sm:px-4 mt-12">
         <div>
           <img
             className=" sm:justify-center sm:items-center w-80 h-96"

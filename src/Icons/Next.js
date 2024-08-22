@@ -9,13 +9,13 @@ export const Next = () => {
     >
       <g clip-path="url(#clip0_316_285)">
         <mask
-        //   id="mask0_316_285"
-        //   style="mask-type:alpha"
-        //   maskUnits="userSpaceOnUse"
-        //   //   x="0"
-        //   //   y="0"
-        //   //   width="65"
-        //   //   height="64"
+        // id="mask0_316_285"
+        // style="mask-type:alpha"
+        // maskUnits="userSpaceOnUse"
+        // x="0"
+        // y="0"
+        // width="65"
+        // height="64"
         >
           <path
             d="M32.4399 64C50.1131 64 64.4399 49.6731 64.4399 32C64.4399 14.3269 50.1131 0 32.4399 0C14.7668 0 0.439941 14.3269 0.439941 32C0.439941 49.6731 14.7668 64 32.4399 64Z"
