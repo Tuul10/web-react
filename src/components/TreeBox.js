@@ -18,16 +18,16 @@ const boxes = [
 export const TreeBox = () => {
   return (
     <div className="gap-12 p-8 m-auto bg-[#FFFFFF]">
-      {boxes.map((box) => {
-        const { id, logo, title, date } = box;
+      {boxes.map((box, index) => {
+        const { logo, title, date } = box;
         return (
-          <div key={id} className="flex gap-12">
+          <div key={index} className="flex gap-12">
             <h1>{logo}</h1>
             <div>
               <h1 className="text-xl ">{title}</h1>
-              {box.texts.map((text) => {
+              {box.texts.map((text, index) => {
                 return (
-                  <url key={id}>
+                  <url key={index}>
                     <li>{text}</li>
                   </url>
                 );
