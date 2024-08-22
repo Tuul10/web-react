@@ -85,7 +85,7 @@ const skills = [
 
 export const TechIcons = () => {
   return (
-    <div className="grid grid-cols-8 gap-12 px-8 justify-center items-center sm:grid-cols-3 sm:gap-6 sm:w-96 sm:m-auto">
+    <div className="grid grid-cols-8 gap-12 px-8 justify-center items-center lg:grid-cols-3 lg:gap-6 lg:w-96 lg:m-auto pb-24 pt-12">
       {skills.map((skill, index) => {
         const { icon, name } = skill;
         return (

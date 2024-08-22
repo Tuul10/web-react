@@ -10,10 +10,10 @@ const Title = (props) => {
 
 function Header() {
   return (
-    <div className="flex justify-between h-16 mx-20 py-4 sm:m-auto sm:w-96">
+    <div className="flex justify-between h-16 mx-20 py-4 lg:m-auto lg:w-96">
       <h1 className="text-3xl  font-bold leading-9">Tom</h1>
       <Kebab />
-      <div className="gap-5 flex sm:hidden">
+      <div className="gap-5 flex lg:hidden">
         {title.map((item, index) => {
           return <Title key={index} text={item} />;
         })}

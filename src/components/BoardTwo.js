@@ -1,18 +1,18 @@
 export const BoardTwo = () => {
   return (
-    <div className="py-24 px-20 m-auto sm:w-96 bg-[#F9FAFB] ">
+    <div className="lg:py-16 py-24 px-20 m-auto lg:w-96 bg-[#F9FAFB] ">
       <p className="  flex bg-[#E5E7EB]  w-28 m-auto justify-center py-1 px-5 rounded-xl h-7 items-center">
         About me
       </p>
-      <div className="flex sm:flex-col  sm:justify-center sm:items-center justify-between sm:py-16 sm:px-4 mt-12">
-        <div>
+      <div className="flex lg:flex-col  lg:justify-center lg:items-center justify-between lg:py-6 lg:px-4 mt-12 lg:mt-1">
+        <div className="lg:w-[384px] lg:flex lg:justify-center lg:items-center ">
           <img
-            className=" sm:justify-center sm:items-center w-80 h-96"
+            className=" w-[400px] h-[480px] lg:w-[280px] lg:h-[360px]"
             src="photo2.png"
           />
         </div>
-        <div className="gap-4 text-[#4B5563] sm:w-fit  ms:mt-4 w-1/2">
-          <h1 className="sm:mt12 font-semibold text-[#111827] text-2xl sm:tex-xl">
+        <div className="gap-4 text-[#4B5563] lg:w-fit  lg:mt-4 w-[600px] ">
+          <h1 className="lg:mt12 font-semibold text-[#111827] text-2xl lg:tex-xl">
             Curious about me? Here you have it:
           </h1>
 
@@ -36,11 +36,11 @@ export const BoardTwo = () => {
           </p>
           <p className="mt-4">Finally, some quick bits about me.</p>
           <url className="flex">
-            <url className="mt-4 w-72 sm:w-40 gap-2 justify-center">
+            <url className="mt-4 w-72 lg:w-40 gap-2 justify-center">
               <li>B.E. in Computer Engineering</li>
               <li className=" mt-2">Full time freelancer</li>
             </url>
-            <li className="sm:w-40 w-72 mt-4">Avid learner</li>
+            <li className="lg:w-40 w-72 mt-4">Avid learner</li>
           </url>
           <p className="mt-4">
             One last thing, Im available for freelance work, so feel free to

@@ -1,6 +1,6 @@
 export const Kebab = () => {
   return (
-    <div className="hidden sm:block ">
+    <div className="hidden lg:block ">
       <svg
         width="24"
         height="24"
