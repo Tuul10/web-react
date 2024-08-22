@@ -94,7 +94,6 @@ export const TechIcons = () => {
             className="text-[#4B5563] font-normal text-xl flex justify-center items-center flex-col gap-2"
           >
             {icon} {name}
-            {id}
           </div>
         );
       })}
