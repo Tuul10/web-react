@@ -32,7 +32,7 @@ export const BoardOne = () => {
           <Figma />
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-end items-end flex-1">
         <img
           className="h-96 justify-center items-center flex border-b-8 border-r-8  border-gray-default border-[#E5E7EB] border-t-none"
           src="photo1.png"
