@@ -1,3 +1,5 @@
+import { Board5Map } from "./Board5Map";
+
 export const BoardFive = () => {
   return (
     <div className="py-24 px-20">
@@ -7,6 +9,9 @@ export const BoardFive = () => {
       <p className="font-normal text-xl lg:w-11/12 mt-4 flex justify-center text-[#4B5563]">
         Some of the noteworthy projects I have built:
       </p>
+      <div>
+        <Board5Map />
+      </div>
     </div>
   );
 };
