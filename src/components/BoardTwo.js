@@ -1,6 +1,6 @@
 export const BoardTwo = () => {
   return (
-    <div className="lg:py-16 py-24 px-20 m-auto lg:w-96 bg-[#F9FAFB] ">
+    <div className="lg:py-16 py-24 px-20 m-auto  bg-[#F9FAFB] ">
       <p className="  flex bg-[#E5E7EB]  w-28 m-auto justify-center py-1 px-5 rounded-xl h-7 items-center">
         About me
       </p>
@@ -11,7 +11,7 @@ export const BoardTwo = () => {
             src="photo2.png"
           />
         </div>
-        <div className="gap-4 text-[#4B5563] lg:w-fit  lg:mt-4 w-[600px] ">
+        <div className="gap-4 text-[#4B5563]  lg:mt-4 w-[600px]  lg:w-96">
           <h1 className="lg:mt12 font-semibold text-[#111827] text-2xl lg:tex-xl">
             Curious about me? Here you have it:
           </h1>

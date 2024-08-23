@@ -41,7 +41,7 @@ const boxes = [
 
 export const TreeBox = () => {
   return (
-    <div className=" flex flex-col gap-12 p-8 m-auto ">
+    <div className=" flex flex-col gap-12 mt-12 m-auto ">
       {boxes.map((box, index) => {
         const { logo, title, date } = box;
         return (

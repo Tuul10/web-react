@@ -1,3 +1,8 @@
 export const Img5 = () => {
-  return <img src="photo5.png" />;
+  return (
+    <img
+      className="w-[480px] h-[384px] lg:w-[279px] lg:h-[192px]"
+      src="photo5.png"
+    />
+  );
 };

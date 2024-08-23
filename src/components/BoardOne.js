@@ -6,7 +6,7 @@ import { Location } from "@/Icons/location";
 
 export const BoardOne = () => {
   return (
-    <div className="flex justify-between my-24 mx-20  lg:justify-center lg:items-center  lg:m-auto  lg:py-16 lg:px-4 lg:gap-12 lg:h-226 lg:flex-col-reverse">
+    <div className="flex justify-between  my-24 mx-20 lg:flex lg:justify-center lg:items-center  lg:m-auto  lg:py-16 lg:px-4 lg:gap-12 lg:h-226 lg:flex-col-reverse  ">
       <div className="w-[600px] lg:w-96 ">
         <h1 className="text-6xl font-bold lg:text-4xl">Hi, I’m Tom 👋</h1>
         <p className="text-slate-600 mt-2 font-normal leading-6 h-24 lg:mb-12 lg:h-48">
