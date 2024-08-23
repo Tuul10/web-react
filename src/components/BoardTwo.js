@@ -4,14 +4,14 @@ export const BoardTwo = () => {
       <p className="  flex bg-[#E5E7EB]  w-28 m-auto justify-center py-1 px-5 rounded-xl h-7 items-center">
         About me
       </p>
-      <div className="flex lg:flex-col  lg:justify-center lg:items-center justify-between lg:py-6 lg:px-4 mt-12 lg:mt-1">
-        <div className="lg:w-[384px] lg:flex lg:justify-center lg:items-center ">
+      <div className="flex lg:flex-col  lg:justify-center lg:items-center gap-12 lg:py-6 lg:px-4 mt-12 lg:mt-1">
+        <div className="lg:w-[384px] w-[584px] lg:flex lg:justify-center lg:items-center flex-1">
           <img
             className=" w-[400px] h-[480px] lg:w-[280px] lg:h-[360px]"
             src="photo2.png"
           />
         </div>
-        <div className="gap-4 text-[#4B5563]  lg:mt-4 w-[600px]  lg:w-96">
+        <div className="gap-4 text-[#4B5563]  lg:mt-4 w-[600px]  lg:w-96 flex-1">
           <h1 className="lg:mt12 font-semibold text-[#111827] text-2xl lg:tex-xl">
             Curious about me? Here you have it:
           </h1>

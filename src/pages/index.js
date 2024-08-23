@@ -5,6 +5,7 @@ import { BoardTree } from "@/components/BoardTree";
 import { BoardFour } from "@/components/BoardFour";
 import BoardFive from "@/components/BoardFive";
 import { BoardSix } from "@/components/Boardsix";
+import { Enddiv } from "@/components/Enddiv";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <BoardFour />
         <BoardFive />
         <BoardSix />
+        <Enddiv />
       </div>
     </div>
   );
