@@ -9,8 +9,8 @@ import { Enddiv } from "@/components/Enddiv";
 
 function Home() {
   return (
-    <div className="m-auto lg:content-center flex ">
-      <div className="lg:flex-col  max-w-7xl m-auto ">
+    <div className="container mx-auto content-center dark:bg-black">
+      <div className="md:flex-col  max-w-7xl  ">
         <Header />
         <BoardOne />
         <BoardTwo />
@@ -18,8 +18,8 @@ function Home() {
         <BoardFour />
         <BoardFive />
         <BoardSix />
-        <Enddiv />
       </div>
+      <Enddiv />
     </div>
   );
 }

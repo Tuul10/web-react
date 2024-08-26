@@ -27,4 +27,6 @@ module.exports = {
       // => @media (max-width: 639px) { ... }
     },
   },
+  darkMode: "selector",
+  plugins: [require("daisyui")],
 };

@@ -15,6 +15,9 @@ import { BigFigma } from "@/Icons/BigFigma";
 import { Cypress } from "@/Icons/Cypress";
 import { Storybook } from "@/Icons/Storybook";
 import { Git } from "@/Icons/Git";
+import { WhiteExpress } from "@/Icons/WhiteExpress";
+import { WhiteSocket } from "@/Icons/WhiteSocket";
+import { WhiteCypress } from "@/Icons/WhiteCypress";
 
 const skills = [
   {
@@ -39,6 +42,7 @@ const skills = [
   },
   {
     icon: <Express />,
+    icon: <WhiteExpress />,
     name: "Express.js",
   },
   {
@@ -47,6 +51,7 @@ const skills = [
   },
   {
     icon: <Socket />,
+    icon: <WhiteSocket />,
     name: "Socket.io",
   },
   {
@@ -71,6 +76,7 @@ const skills = [
   },
   {
     icon: <Cypress />,
+    icon: <WhiteCypress />,
     name: "Cypress",
   },
   {
@@ -85,13 +91,13 @@ const skills = [
 
 export const TechIcons = () => {
   return (
-    <div className="grid grid-cols-8 gap-12 px-8 justify-center items-center lg:grid-cols-3 lg:gap-6 lg:w-96 lg:m-auto lg:mt-6 mt-12">
+    <div className="grid grid-cols-8 md:grid-cols-3 md:w-[100%] gap-12 px-8 items-center xl:grid-cols-8 2xl:grid-cols-8  md:gap-6  md:mt-6 mt-12 justify-between">
       {skills.map((skill, index) => {
         const { icon, name } = skill;
         return (
           <div
             key={index}
-            className="text-[#4B5563] font-normal text-xl flex justify-center items-center flex-col gap-2"
+            className="text-[#4B5563] font-normal text-xl flex justify-center items-center flex-col gap-2 dark:text-[#D1D5DB]"
           >
             {icon} {name}
           </div>

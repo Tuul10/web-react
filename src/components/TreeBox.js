@@ -47,20 +47,22 @@ export const TreeBox = () => {
         return (
           <div
             key={index}
-            className="flex gap-12 p-8 bg-[#FFFFFF] rounded-xl lg:flex-col lg:w-96 lg:gap-4  "
+            className="flex gap-12 p-8 bg-[#FFFFFF] rounded-xl md:flex-col  md:gap-4  dark:bg-[#1F2937] dark:text-[#D1D5DB]"
           >
             <h1>{logo}</h1>
-            <div className="flex gap-12 lg:flex  lg:flex-col-reverse lg:gap-4">
-              <div className="flex flex-col gap-1">
+            <div className="flex gap-12 md:flex  md:flex-col-reverse md:gap-4">
+              <div className="flex flex-col gap-1 ">
                 <h1 className="text-xl font-semibold mb-4 ">{title}</h1>
 
-                {box.texts.map((text, index) => {
-                  return (
-                    <url key={index}>
-                      <li>{text}</li>
-                    </url>
-                  );
-                })}
+                <div className="text-base">
+                  {box.texts.map((text, index) => {
+                    return (
+                      <url key={index}>
+                        <li>{text}</li>
+                      </url>
+                    );
+                  })}
+                </div>
               </div>
               <p>{date}</p>
             </div>
