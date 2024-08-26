@@ -1,6 +1,6 @@
 export const BoardTwo = () => {
   return (
-    <div className="md:py-16 md:px-4 py-24 px-20 m-auto  bg-[#F9FAFB] dark:bg-[black] md:content-center">
+    <div className="md:py-16 md:px-4 py-24 px-20 m-auto  bg-[#F9FAFB] dark:bg-[#111827] md:content-center">
       <p className="  flex bg-[#E5E7EB] w-fit m-auto justify-center py-1 px-5 rounded-xl h-7 items-center dark:bg-[#4B5563] dark:text-[#D1D5DB]">
         About me
       </p>

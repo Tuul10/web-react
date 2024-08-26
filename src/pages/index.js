@@ -10,7 +10,7 @@ import { Enddiv } from "@/components/Enddiv";
 function Home() {
   return (
     <div className="container mx-auto content-center dark:bg-black">
-      <div className="md:flex-col  max-w-7xl  ">
+      <div className="md:flex-col  max-w-7xl  m-auto">
         <Header />
         <BoardOne />
         <BoardTwo />

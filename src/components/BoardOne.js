@@ -6,8 +6,8 @@ import { Location } from "@/Icons/location";
 
 export const BoardOne = () => {
   return (
-    <div className="flex gap-12  my-24 mx-20 md:flex md:justify-center md:items-center  md:m-auto  md:py-16 md:px-4 md:gap-12  md:flex-col-reverse  ">
-      <div className="  flex-1">
+    <div className="flex gap-12  my-24 mx-20 md:flex md:justify-center md:items-center  md:m-auto  md:py-16 md:px-4 md:gap-12  md:flex-col-reverse">
+      <div className="flex-1">
         <h1 className="text-6xl font-bold md:text-4xl dark:text-[#D1D5DB]">
           Hi, I’m Tom 👋
         </h1>
