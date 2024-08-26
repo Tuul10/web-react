@@ -52,9 +52,11 @@ export const TreeBox = () => {
             <h1>{logo}</h1>
             <div className="flex gap-12 md:flex  md:flex-col-reverse md:gap-4">
               <div className="flex flex-col gap-1 ">
-                <h1 className="text-xl font-semibold mb-4 ">{title}</h1>
+                <h1 className="text-xl font-semibold mb-4 text-[#111827]">
+                  {title}
+                </h1>
 
-                <div className="text-base">
+                <div className="text-base text-[#4B5563]">
                   {box.texts.map((text, index) => {
                     return (
                       <url key={index}>

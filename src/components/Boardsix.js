@@ -9,7 +9,7 @@ import { Twitter } from "@/Icons/Twitter";
 export const BoardSix = () => {
   return (
     <div className="py-24 px-20 md:py-16 md:px-4 ">
-      <p className="  flex bg-[#E5E7EB]  w-28 m-auto justify-center rounded-xl h-7 items-center dark:bg-[#4B5563] dark:text-[#D1D5DB]">
+      <p className="  flex bg-[#E5E7EB] text-[#4B5563] w-fit px-5 py-1 m-auto justify-center rounded-xl h-7 items-center dark:bg-[#4B5563] dark:text-[#D1D5DB]">
         Get in touch
       </p>
       <p className=" mt-4 flex text-[#4B5563] text-center font-normal text-xl max-w-xl  m-auto md:w-[373px]">
@@ -18,14 +18,14 @@ export const BoardSix = () => {
       </p>
       <div className="flex gap-2 justify-center mt-12 md:mt-6">
         <Mail />
-        <h1 className="font-semibold text-4xl md:text-xl dark:text-[#F9FAFB]">
+        <h1 className="font-semibold text-4xl md:text-xl text-[#111827] dark:text-[#F9FAFB]">
           tom@pinecone.mn
         </h1>
         <Twin />
       </div>
       <div className="flex gap-2 justify-center mt-5 mb-12 md:mb-6">
         <Phone />
-        <h1 className="font-semibold text-4xl md:text-xl dark:text-[#F9FAFB]">
+        <h1 className="font-semibold text-4xl md:text-xl text-[#111827] dark:text-[#F9FAFB]">
           +976 88112233
         </h1>
         <Twin />

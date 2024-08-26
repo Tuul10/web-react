@@ -77,7 +77,7 @@ const Board5Map = () => {
               className="flex rounded-xl  border-[#F9FAFB] border md:flex-col-reverse  md:flex  md:m-auto dark:bg-[#374151] dark:border-0"
             >
               <div className="flex-1 flex flex-col  p-12 gap-6 rounded-r-xl border-t-none md:p-8 ">
-                <h1 className="font-semibold text-xl dark:text-[white]">
+                <h1 className="font-semibold text-xl text-[#111827] dark:text-[white]">
                   {name}
                 </h1>
                 <p className="text-base dark:text-[#D1D5DB] text-[#4B5563] font-normal self-stretch  ">
@@ -102,13 +102,13 @@ const Board5Map = () => {
             <div
               index={index}
               key={id}
-              className="flex rounded-xl  border-[#F9FAFB] border md:flex-col  md:flex md:m-auto dark:bg-[#374151] dark:border-0"
+              className="flex rounded-xl  border-[#F9FAFB] border md:flex-col  md:flex md:m-auto dark:bg-[#374151] dark:border-0 mt-12"
             >
               <div className="flex-1 p-12 bg-[#F9FAFB] rounded-xl md:p-8 flex justify-center items-center dark:bg-[#4B5563]">
                 {img}
               </div>
               <div className="flex-1 flex flex-col  p-12 gap-6 rounded-r-xl border-t-none md:p-8 ">
-                <h1 className="font-semibold text-xl dark:text-[white]">
+                <h1 className="font-semibold text-[#4B5563] text-xl dark:text-[white]">
                   {name}
                 </h1>
                 <p className="text-base text-[#4B5563] font-normal self-stretch dark:text-[#D1D5DB]">
